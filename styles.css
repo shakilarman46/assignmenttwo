@@ -27,7 +27,6 @@
     background: -webkit-linear-gradient(1350deg, #F948B2 10%, #8758F1 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: right;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -35,7 +34,6 @@
 
 .description {
     color: #534C64;
-    text-align: right;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 30px;
@@ -216,7 +214,7 @@ ul a {
     margin-left: 24px;
 }
 
-.banner-image img{
+.banner-image img {
     width: 90%;
 }
 
@@ -263,7 +261,7 @@ ul a {
     padding: 100px 240px;
 }
 
-.we-are-gamer-container img{
+.we-are-gamer-container img {
     width: 55%;
 }
 
@@ -287,14 +285,56 @@ ul a {
     line-height: 45px;
 }
 
-.gamer-title{
+.gamer-title {
     margin-bottom: 24px;
+    text-align: right;
 }
 
-.gamer-description{
+.gamer-description {
     margin-bottom: 32px;
+    text-align: right;
 }
 
 
 /* We Are Gamer Part Closed */
 /* ======================== */
+
+
+
+
+
+/* Online Games Funny Videos */
+/* ========================= */
+
+.online-games-funny-videos-container {
+    margin-top: 120px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 32px 240px 120px;
+}
+
+.cards img {
+    width: 95%;
+    margin-bottom: 24px;
+}
+
+.hover-style:hover {
+    border-radius: 16px;
+    background-color: blue;
+}
+
+.video-text {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 30px;
+}
