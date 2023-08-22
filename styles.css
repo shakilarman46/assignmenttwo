@@ -23,6 +23,25 @@
 }
 
 
+.title {
+    background: -webkit-linear-gradient(1350deg, #F948B2 10%, #8758F1 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.description {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
 
 
 
@@ -31,6 +50,9 @@
 /* Header Part Started */
 /* =================== */
 /* =================== */
+
+
+
 
 
 /* Logo & Navigation Starts */
@@ -135,13 +157,14 @@ ul a {
 
 
 
-.banner-background{
+.banner-background {
     background-image: url("images/Group\ 14.png");
     width: 100%;
     background-repeat: no-repeat;
+    padding: 50px 0 0;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,13 +216,85 @@ ul a {
     margin-left: 24px;
 }
 
-
-/* Banner Image */
-
-.banner-image{
-    margin-bottom: -5px;
+.banner-image img{
+    width: 90%;
 }
+
+
 
 
 /* Banner Part Closed */
 /* ================== */
+
+
+
+
+
+/* Header Part Closed  */
+/* =================== */
+/* =================== */
+
+
+
+
+
+
+/* Main Part Started */
+/* ================= */
+/* ================= */
+
+
+
+/* We Are Gamer Part Starts */
+/* ======================== */
+
+
+
+.we-are-gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 600px;
+}
+
+
+.we-are-gamer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 240px;
+}
+
+.we-are-gamer-container img{
+    width: 55%;
+}
+
+.btn-right {
+    text-align: right;
+    margin-bottom: 45px;
+}
+
+.quote {
+    text-align: right;
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.quote span {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.gamer-title{
+    margin-bottom: 24px;
+}
+
+.gamer-description{
+    margin-bottom: 32px;
+}
+
+
+/* We Are Gamer Part Closed */
+/* ======================== */
