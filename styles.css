@@ -8,6 +8,21 @@
 }
 
 
+/* Shared Style */
+/* ============ */
+
+
+.primary-btn {
+    background-color: #FF42A5;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: transparent;
+}
+
+
 
 
 
@@ -109,3 +124,82 @@ ul a {
 
 /* Logo & Navigation Closed */
 /* ======================== */
+
+
+
+
+
+
+/* Banner Part Starts */
+/* ================== */
+
+
+
+.banner-background{
+    background-image: url("images/Group\ 14.png");
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px;
+}
+
+
+/* Banner Content */
+
+.banner-sub-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 5.9375rem;
+    font-weight: 800;
+    background: -webkit-linear-gradient(90deg, #F948B2 10%, #8758F1 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.a,
+.b {
+    margin-bottom: 17px;
+}
+
+.c {
+    margin-bottom: 41px;
+}
+
+
+.blue-btn {
+    background-color: #4EC5F7;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: transparent;
+    margin-left: 24px;
+}
+
+
+/* Banner Image */
+
+.banner-image{
+    margin-bottom: -5px;
+}
+
+
+/* Banner Part Closed */
+/* ================== */
