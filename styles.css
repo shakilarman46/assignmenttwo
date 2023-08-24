@@ -303,8 +303,10 @@ ul a {
 
 
 
-/* Online Games Funny Videos */
-/* ========================= */
+/* Online Games Funny Videos Starts */
+/* ================================ */
+
+
 
 .online-games-funny-videos-container {
     margin-top: 120px;
@@ -315,26 +317,418 @@ ul a {
     margin-bottom: 16px;
 }
 
-.cards-container {
+
+.card-container {
     display: flex;
     justify-content: space-between;
-
-    padding: 32px 240px 120px;
+    padding: 48px 240px;
 }
 
-.cards img {
-    width: 95%;
-    margin-bottom: 24px;
-}
-
-.hover-style:hover {
-    border-radius: 16px;
-    background-color: blue;
-}
-
-.video-text {
+.cards-description {
     color: #534C64;
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 30px;
+    margin-top: 24px;
 }
+
+/* hover */
+
+.cards-content {
+    position: relative;
+    width: 300px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.cards-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 97%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-content:hover .cards-overlay {
+    opacity: 1;
+    border-radius: 16px;
+    border: 4px solid #FF42A5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
+
+.icon {
+    font-size: 48px;
+}
+
+.hover-text {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #FF42A5;
+}
+
+
+/* Online Games Funny Videos Closed */
+/* ================================ */
+
+
+
+
+
+
+
+/* Play Instantly Part Starts */
+/* ========================== */
+
+
+
+
+
+.play-instantly-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px;
+    margin-top: 150px;
+}
+
+
+
+.play-instantly-content {
+    margin-left: 187px;
+    margin-bottom: 300px;
+}
+
+
+
+.play-instantly-title {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    background: -webkit-linear-gradient(90deg, #0B0223 10%, #0B0223 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-title span {
+    background: -webkit-linear-gradient(90deg, #F948B2 10%, #8758F1 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.play-instantly-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+
+.big-image {}
+
+.small-image {
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+
+}
+
+/* Play Instantly Part Closed */
+/* ========================== */
+
+
+
+
+/* Play Online Games */
+/* ================= */
+
+
+.play-games-online-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px;
+}
+
+
+.play-games-online-content {
+    margin-bottom: 300px;
+}
+
+.play-games-online-title {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    background: -webkit-linear-gradient(90deg, #0B0223 10%, #0B0223 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-games-online-title span {
+    background: -webkit-linear-gradient(90deg, #F948B2 10%, #8758F1 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.play-games-online-description {
+    color: #534C64;
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+
+.small-image-b {
+    position: relative;
+    bottom: 250px;
+    left: 530px;
+}
+
+
+/* Play Online Games */
+/* ================= */
+
+
+
+
+/* Careers Part */
+/* ============ */
+
+
+
+.careers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.careers-content {
+    max-width: 680px;
+    padding-left: 240px;
+}
+
+.careers {
+    background: #FF42A5;
+}
+
+
+.careers-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.careers-description {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+
+.careers-points-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.careers-points {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 40px;
+    margin-right: 77 px;
+}
+
+.careers-points-container .right {
+    text-align: right;
+}
+
+.white-btn {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #FF42A5;
+    background-color: #fff;
+    padding: 21px 40px;
+    border: transparent;
+    border-radius: 48px;
+}
+
+
+.careers-image img {
+    width: 100%;
+    margin-right: -150px;
+}
+
+
+
+/* Careers Part */
+/* ============ */
+
+
+
+
+/* Games Button */
+/* ============ */
+
+.whole-btn {
+    padding-top: 120px;
+}
+
+.first-raw,
+.second-raw {
+    text-align: center;
+}
+
+.second-raw {
+    padding-top: 27px;
+    padding-bottom: 120px;
+}
+
+.btn-container {
+    border-radius: 50px;
+    background: #fff;
+    border-radius: 50px;
+    border: transparent;
+    margin-right: 27px;
+}
+
+.games-btn {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px;
+}
+
+
+.btn-text {
+    color: #0B0223;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+
+/* Hover */
+
+
+.btn-container:hover {
+    border: 3px solid #FF42A5;
+}
+
+.btn-text:hover {
+    color: #FF42A5;
+}
+
+/* Games Button */
+/* ============ */
+
+
+
+
+/* Main Part Closed */
+/* ================ */
+/* ================ */
+
+
+
+
+/* Footer Part Started */
+/* =================== */
+/* =================== */
+
+
+
+.bg-color {
+    background: #0B0223;
+    padding: 120px 0;
+}
+
+.footer-logo {
+    justify-content: center;
+}
+
+.footer-logo-text {
+    color: #fff;
+}
+
+.f-menu {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.f-menu li {
+    list-style: none;
+}
+
+.footer-menu a {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 75px;
+}
+
+
+.f-terms {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.f-terms li {
+    list-style: none;
+}
+
+.f-terms a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.license {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Footer Part Closed  */
+/* =================== */
+/* =================== */
